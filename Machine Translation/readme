@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------
+Folder Structure                                                                    |
+    - Data                                                                          |
+        - eng-french.txt => data file downloaded from kaggle site                   |
+        - english => text file containing all english sentences from above file     |
+        - french => text file containing all french sentences from above file       |
+                                                                                    |
+    - Model Parameters => contains the weights and saved model                      |
+                                                                                    |
+    - RNN.py => contains the required methods for training & testing                |
+                     the neural network                                             |
+    - main.py => driver code for running the project                                |
+                                                                                    |
+    - PreProcessing.py => code to preprocess data                                   |
+    - report.pdf =>  report for the project                                         |
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
+How to run the program                                                  |
+1. To view the testing phase:                                           |
+    via command line                                                    |
+        python3 main.py                                                 |
+    via IDE                                                             |
+        run main.py                                                     |
+                                                                        |
+2. To view the training phase:                                          |
+    via command line                                                    |
+        python3 main.py Train                                           |
+                                                                        |
+    Note: the training phase can take quite a while to run              |
+                                                                        |
+-------------------------------------------------------------------------
+

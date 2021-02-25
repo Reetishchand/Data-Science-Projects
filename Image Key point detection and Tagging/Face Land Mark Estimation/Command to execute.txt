@@ -1,0 +1,3 @@
+Command to execute : 
+
+python3 facial_landmarks.py --shape-predictor fle.dat --image 12.png

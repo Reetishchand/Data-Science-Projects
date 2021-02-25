@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+face_detector	/home/amark/face_recognition/face_recognition/api.py	/^face_detector = dlib.get_frontal_face_detector()$/;"	variable	line:15
+predictor_68_point_model	/home/amark/face_recognition/face_recognition/api.py	/^predictor_68_point_model = face_recognition_models.pose_predictor_model_location()$/;"	variable	line:17
+pose_predictor_68_point	/home/amark/face_recognition/face_recognition/api.py	/^pose_predictor_68_point = dlib.shape_predictor(predictor_68_point_model)$/;"	variable	line:18
+predictor_5_point_model	/home/amark/face_recognition/face_recognition/api.py	/^predictor_5_point_model = face_recognition_models.pose_predictor_five_point_model_location()$/;"	variable	line:20
+pose_predictor_5_point	/home/amark/face_recognition/face_recognition/api.py	/^pose_predictor_5_point = dlib.shape_predictor(predictor_5_point_model)$/;"	variable	line:21
+cnn_face_detection_model	/home/amark/face_recognition/face_recognition/api.py	/^cnn_face_detection_model = face_recognition_models.cnn_face_detector_model_location()$/;"	variable	line:23
+cnn_face_detector	/home/amark/face_recognition/face_recognition/api.py	/^cnn_face_detector = dlib.cnn_face_detection_model_v1(cnn_face_detection_model)$/;"	variable	line:24
+face_recognition_model	/home/amark/face_recognition/face_recognition/api.py	/^face_recognition_model = face_recognition_models.face_recognition_model_location()$/;"	variable	line:26
+face_encoder	/home/amark/face_recognition/face_recognition/api.py	/^face_encoder = dlib.face_recognition_model_v1(face_recognition_model)$/;"	variable	line:27
+_rect_to_css	/home/amark/face_recognition/face_recognition/api.py	/^def _rect_to_css(rect):$/;"	function	line:30
+_css_to_rect	/home/amark/face_recognition/face_recognition/api.py	/^def _css_to_rect(css):$/;"	function	line:40
+_trim_css_to_bounds	/home/amark/face_recognition/face_recognition/api.py	/^def _trim_css_to_bounds(css, image_shape):$/;"	function	line:50
+face_distance	/home/amark/face_recognition/face_recognition/api.py	/^def face_distance(face_encodings, face_to_compare):$/;"	function	line:61
+load_image_file	/home/amark/face_recognition/face_recognition/api.py	/^def load_image_file(file, mode='RGB'):$/;"	function	line:76
+_raw_face_locations	/home/amark/face_recognition/face_recognition/api.py	/^def _raw_face_locations(img, number_of_times_to_upsample=1, model="hog"):$/;"	function	line:90
+face_locations	/home/amark/face_recognition/face_recognition/api.py	/^def face_locations(img, number_of_times_to_upsample=1, model="hog"):$/;"	function	line:106
+_raw_face_locations_batched	/home/amark/face_recognition/face_recognition/api.py	/^def _raw_face_locations_batched(images, number_of_times_to_upsample=1, batch_size=128):$/;"	function	line:122
+batch_face_locations	/home/amark/face_recognition/face_recognition/api.py	/^def batch_face_locations(images, number_of_times_to_upsample=1, batch_size=128):$/;"	function	line:133
+convert_cnn_detections_to_css	/home/amark/face_recognition/face_recognition/api.py	/^    def convert_cnn_detections_to_css(detections):$/;"	function	line:144	function:batch_face_locations
+_raw_face_landmarks	/home/amark/face_recognition/face_recognition/api.py	/^def _raw_face_landmarks(face_image, face_locations=None, model="large"):$/;"	function	line:152
+face_landmarks	/home/amark/face_recognition/face_recognition/api.py	/^def face_landmarks(face_image, face_locations=None):$/;"	function	line:166
+face_encodings	/home/amark/face_recognition/face_recognition/api.py	/^def face_encodings(face_image, known_face_locations=None, num_jitters=1):$/;"	function	line:191
+compare_faces	/home/amark/face_recognition/face_recognition/api.py	/^def compare_faces(known_face_encodings, face_encoding_to_check, tolerance=0.6):$/;"	function	line:204
+scan_known_people	/home/amark/face_recognition/face_recognition/cli.py	/^def scan_known_people(known_people_folder):$/;"	function	line:14
+print_result	/home/amark/face_recognition/face_recognition/cli.py	/^def print_result(filename, name, distance, show_distance=False):$/;"	function	line:35
+test_image	/home/amark/face_recognition/face_recognition/cli.py	/^def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6, show_distance=False):$/;"	function	line:42
+image_files_in_folder	/home/amark/face_recognition/face_recognition/cli.py	/^def image_files_in_folder(folder):$/;"	function	line:63
+process_images_in_process_pool	/home/amark/face_recognition/face_recognition/cli.py	/^def process_images_in_process_pool(images_to_check, known_names, known_face_encodings, number_of_cpus, tolerance, show_distance):$/;"	function	line:67
+main	/home/amark/face_recognition/face_recognition/cli.py	/^def main(known_people_folder, image_to_check, cpus, tolerance, show_distance):$/;"	function	line:97
+__email__	/home/amark/face_recognition/face_recognition/__init__.py	/^__email__ = 'ageitgey@gmail.com'$/;"	variable	line:4
+__version__	/home/amark/face_recognition/face_recognition/__init__.py	/^__version__ = '1.2.2'$/;"	variable	line:5

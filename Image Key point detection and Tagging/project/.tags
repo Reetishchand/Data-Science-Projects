@@ -1,0 +1,152 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+known_obama_image	/home/amark/face_recognition/examples/face_distance.py	/^known_obama_image = face_recognition.load_image_file("obama.jpg")$/;"	variable	line:14
+known_biden_image	/home/amark/face_recognition/examples/face_distance.py	/^known_biden_image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:15
+obama_face_encoding	/home/amark/face_recognition/examples/face_distance.py	/^obama_face_encoding = face_recognition.face_encodings(known_obama_image)[0]$/;"	variable	line:18
+biden_face_encoding	/home/amark/face_recognition/examples/face_distance.py	/^biden_face_encoding = face_recognition.face_encodings(known_biden_image)[0]$/;"	variable	line:19
+known_encodings	/home/amark/face_recognition/examples/face_distance.py	/^known_encodings = [$/;"	variable	line:21
+image_to_test	/home/amark/face_recognition/examples/face_distance.py	/^image_to_test = face_recognition.load_image_file("obama2.jpg")$/;"	variable	line:27
+image_to_test_encoding	/home/amark/face_recognition/examples/face_distance.py	/^image_to_test_encoding = face_recognition.face_encodings(image_to_test)[0]$/;"	variable	line:28
+face_distances	/home/amark/face_recognition/examples/face_distance.py	/^face_distances = face_recognition.face_distance(known_encodings, image_to_test_encoding)$/;"	variable	line:31
+image	/home/amark/face_recognition/examples/find_faces_in_picture.py	/^image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:5
+face_locations	/home/amark/face_recognition/examples/find_faces_in_picture.py	/^face_locations = face_recognition.face_locations(image)$/;"	variable	line:10
+face_image	/home/amark/face_recognition/examples/find_faces_in_picture.py	/^    face_image = image[top:bottom, left:right]$/;"	variable	line:21
+pil_image	/home/amark/face_recognition/examples/find_faces_in_picture.py	/^    pil_image = Image.fromarray(face_image)$/;"	variable	line:22
+image	/home/amark/face_recognition/examples/find_faces_in_picture_cnn.py	/^image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:5
+face_locations	/home/amark/face_recognition/examples/find_faces_in_picture_cnn.py	/^face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=0, model="cnn")$/;"	variable	line:12
+face_image	/home/amark/face_recognition/examples/find_faces_in_picture_cnn.py	/^    face_image = image[top:bottom, left:right]$/;"	variable	line:23
+pil_image	/home/amark/face_recognition/examples/find_faces_in_picture_cnn.py	/^    pil_image = Image.fromarray(face_image)$/;"	variable	line:24
+input_movie	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^input_movie = cv2.VideoCapture("hamilton_clip.mp4")$/;"	variable	line:11
+length	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^length = int(input_movie.get(cv2.CAP_PROP_FRAME_COUNT))$/;"	variable	line:12
+fourcc	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^fourcc = cv2.VideoWriter_fourcc(*'XVID')$/;"	variable	line:15
+output_movie	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^output_movie = cv2.VideoWriter('output.avi', fourcc, 29.97, (640, 360))$/;"	variable	line:16
+lmm_image	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^lmm_image = face_recognition.load_image_file("lin-manuel-miranda.png")$/;"	variable	line:19
+lmm_face_encoding	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^lmm_face_encoding = face_recognition.face_encodings(lmm_image)[0]$/;"	variable	line:20
+al_image	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^al_image = face_recognition.load_image_file("alex-lacamoire.png")$/;"	variable	line:22
+al_face_encoding	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^al_face_encoding = face_recognition.face_encodings(al_image)[0]$/;"	variable	line:23
+known_faces	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^known_faces = [$/;"	variable	line:25
+face_locations	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^face_locations = []$/;"	variable	line:31
+face_encodings	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^face_encodings = []$/;"	variable	line:32
+face_names	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^face_names = []$/;"	variable	line:33
+frame_number	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^frame_number = 0$/;"	variable	line:34
+rgb_frame	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^    rgb_frame = frame[:, :, ::-1]$/;"	variable	line:46
+face_locations	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^    face_locations = face_recognition.face_locations(rgb_frame)$/;"	variable	line:49
+face_encodings	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^    face_encodings = face_recognition.face_encodings(rgb_frame, face_locations)$/;"	variable	line:50
+face_names	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^    face_names = []$/;"	variable	line:52
+match	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^        match = face_recognition.compare_faces(known_faces, face_encoding, tolerance=0.50)$/;"	variable	line:55
+name	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^        name = None$/;"	variable	line:59
+name	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^            name = "Lin-Manuel Miranda"$/;"	variable	line:61
+name	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^            name = "Alex Lacamoire"$/;"	variable	line:63
+font	/home/amark/face_recognition/examples/facerec_from_video_file.py	/^        font = cv2.FONT_HERSHEY_DUPLEX$/;"	variable	line:77
+ALLOWED_EXTENSIONS	/home/amark/face_recognition/examples/face_recognition_knn.py	/^ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}$/;"	variable	line:37
+train	/home/amark/face_recognition/examples/face_recognition_knn.py	/^def train(train_dir, model_save_path = "", n_neighbors = None, knn_algo = 'ball_tree', verbose=False):$/;"	function	line:39
+predict	/home/amark/face_recognition/examples/face_recognition_knn.py	/^def predict(X_img_path, knn_clf = None, model_save_path ="", DIST_THRESH = .5):$/;"	function	line:70
+draw_preds	/home/amark/face_recognition/examples/face_recognition_knn.py	/^def draw_preds(img_path, preds):$/;"	function	line:107
+knn_clf	/home/amark/face_recognition/examples/face_recognition_knn.py	/^    knn_clf = train("knn_examples\/train")$/;"	variable	line:126
+preds	/home/amark/face_recognition/examples/face_recognition_knn.py	/^        preds = predict(join("knn_examples\/test", img_path) ,knn_clf=knn_clf)$/;"	variable	line:128
+biden_image	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^biden_image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:4
+obama_image	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^obama_image = face_recognition.load_image_file("obama.jpg")$/;"	variable	line:5
+unknown_image	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^unknown_image = face_recognition.load_image_file("obama2.jpg")$/;"	variable	line:6
+biden_face_encoding	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^    biden_face_encoding = face_recognition.face_encodings(biden_image)[0]$/;"	variable	line:12
+obama_face_encoding	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^    obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	variable	line:13
+unknown_face_encoding	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^    unknown_face_encoding = face_recognition.face_encodings(unknown_image)[0]$/;"	variable	line:14
+known_faces	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^known_faces = [$/;"	variable	line:19
+results	/home/amark/face_recognition/examples/recognize_faces_in_pictures.py	/^results = face_recognition.compare_faces(known_faces, unknown_face_encoding)$/;"	variable	line:25
+image	/home/amark/face_recognition/examples/find_facial_features_in_picture.py	/^image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:5
+face_landmarks_list	/home/amark/face_recognition/examples/find_facial_features_in_picture.py	/^face_landmarks_list = face_recognition.face_landmarks(image)$/;"	variable	line:8
+facial_features	/home/amark/face_recognition/examples/find_facial_features_in_picture.py	/^    facial_features = [$/;"	variable	line:15
+pil_image	/home/amark/face_recognition/examples/find_facial_features_in_picture.py	/^    pil_image = Image.fromarray(image)$/;"	variable	line:31
+d	/home/amark/face_recognition/examples/find_facial_features_in_picture.py	/^    d = ImageDraw.Draw(pil_image)$/;"	variable	line:32
+camera	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^camera = picamera.PiCamera()$/;"	variable	line:16
+output	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^output = np.empty((240, 320, 3), dtype=np.uint8)$/;"	variable	line:18
+obama_image	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^obama_image = face_recognition.load_image_file("obama_small.jpg")$/;"	variable	line:22
+obama_face_encoding	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	variable	line:23
+face_locations	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^face_locations = []$/;"	variable	line:26
+face_encodings	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^face_encodings = []$/;"	variable	line:27
+face_locations	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^    face_locations = face_recognition.face_locations(output)$/;"	variable	line:35
+face_encodings	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^    face_encodings = face_recognition.face_encodings(output, face_locations)$/;"	variable	line:37
+match	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^        match = face_recognition.compare_faces([obama_face_encoding], face_encoding)$/;"	variable	line:42
+name	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^        name = "<Unknown Person>"$/;"	variable	line:43
+name	/home/amark/face_recognition/examples/facerec_on_raspberry_pi.py	/^            name = "Barack Obama"$/;"	variable	line:46
+video_capture	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^video_capture = cv2.VideoCapture(0)$/;"	variable	line:11
+face_locations	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^face_locations = []$/;"	variable	line:14
+small_frame	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^    small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)$/;"	variable	line:21
+face_locations	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^    face_locations = face_recognition.face_locations(small_frame, model="cnn")$/;"	variable	line:24
+face_image	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^        face_image = frame[top:bottom, left:right]$/;"	variable	line:35
+face_image	/home/amark/face_recognition/examples/blur_faces_on_webcam.py	/^        face_image = cv2.GaussianBlur(face_image, (99, 99), 30)$/;"	variable	line:38
+TEST_IMAGES	/home/amark/face_recognition/examples/benchmark.py	/^TEST_IMAGES = [$/;"	variable	line:9
+run_test	/home/amark/face_recognition/examples/benchmark.py	/^def run_test(setup, test, iterations_per_test=5, tests_to_run=10):$/;"	function	line:17
+size	/home/amark/face_recognition/examples/benchmark.py	/^    size = image.split("-")[1].split(".")[0]$/;"	variable	line:70
+video_capture	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^video_capture = cv2.VideoCapture("short_hamilton_clip.mp4")$/;"	variable	line:18
+frames	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^frames = []$/;"	variable	line:20
+frame_count	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^frame_count = 0$/;"	variable	line:21
+frame	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^    frame = frame[:, :, ::-1]$/;"	variable	line:32
+batch_of_face_locations	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^        batch_of_face_locations = face_recognition.batch_face_locations(frames, number_of_times_to_upsample=0)$/;"	variable	line:40
+number_of_faces_in_frame	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^            number_of_faces_in_frame = len(face_locations)$/;"	variable	line:44
+frame_number	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^            frame_number = frame_count - 128 + frame_number_in_batch$/;"	variable	line:46
+frames	/home/amark/face_recognition/examples/find_faces_in_batches.py	/^        frames = []$/;"	variable	line:55
+ALLOWED_EXTENSIONS	/home/amark/face_recognition/examples/web_service_example.py	/^ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}$/;"	variable	line:23
+app	/home/amark/face_recognition/examples/web_service_example.py	/^app = Flask(__name__)$/;"	variable	line:25
+allowed_file	/home/amark/face_recognition/examples/web_service_example.py	/^def allowed_file(filename):$/;"	function	line:28
+upload_image	/home/amark/face_recognition/examples/web_service_example.py	/^def upload_image():$/;"	function	line:34
+detect_faces_in_image	/home/amark/face_recognition/examples/web_service_example.py	/^def detect_faces_in_image(file_stream):$/;"	function	line:61
+image	/home/amark/face_recognition/examples/digital_makeup.py	/^image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:5
+face_landmarks_list	/home/amark/face_recognition/examples/digital_makeup.py	/^face_landmarks_list = face_recognition.face_landmarks(image)$/;"	variable	line:8
+pil_image	/home/amark/face_recognition/examples/digital_makeup.py	/^    pil_image = Image.fromarray(image)$/;"	variable	line:11
+d	/home/amark/face_recognition/examples/digital_makeup.py	/^    d = ImageDraw.Draw(pil_image, 'RGBA')$/;"	variable	line:12
+video_capture	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^video_capture = cv2.VideoCapture(0)$/;"	variable	line:12
+obama_image	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^obama_image = face_recognition.load_image_file("obama.jpg")$/;"	variable	line:15
+obama_face_encoding	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	variable	line:16
+biden_image	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^biden_image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:19
+biden_face_encoding	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^biden_face_encoding = face_recognition.face_encodings(biden_image)[0]$/;"	variable	line:20
+known_face_encodings	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^known_face_encodings = [$/;"	variable	line:23
+known_face_names	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^known_face_names = [$/;"	variable	line:27
+rgb_frame	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^    rgb_frame = frame[:, :, ::-1]$/;"	variable	line:37
+face_locations	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^    face_locations = face_recognition.face_locations(rgb_frame)$/;"	variable	line:40
+face_encodings	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^    face_encodings = face_recognition.face_encodings(rgb_frame, face_locations)$/;"	variable	line:41
+matches	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)$/;"	variable	line:46
+name	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^        name = "Unknown"$/;"	variable	line:48
+first_match_index	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^            first_match_index = matches.index(True)$/;"	variable	line:52
+name	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^            name = known_face_names[first_match_index]$/;"	variable	line:53
+font	/home/amark/face_recognition/examples/facerec_from_webcam.py	/^        font = cv2.FONT_HERSHEY_DUPLEX$/;"	variable	line:60
+obama_image	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^obama_image = face_recognition.load_image_file("obama.jpg")$/;"	variable	line:8
+obama_face_encoding	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	variable	line:9
+biden_image	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^biden_image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:12
+biden_face_encoding	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^biden_face_encoding = face_recognition.face_encodings(biden_image)[0]$/;"	variable	line:13
+known_face_encodings	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^known_face_encodings = [$/;"	variable	line:16
+known_face_names	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^known_face_names = [$/;"	variable	line:20
+unknown_image	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^unknown_image = face_recognition.load_image_file("two_people.jpg")$/;"	variable	line:26
+face_locations	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^face_locations = face_recognition.face_locations(unknown_image)$/;"	variable	line:29
+face_encodings	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^face_encodings = face_recognition.face_encodings(unknown_image, face_locations)$/;"	variable	line:30
+pil_image	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^pil_image = Image.fromarray(unknown_image)$/;"	variable	line:34
+draw	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^draw = ImageDraw.Draw(pil_image)$/;"	variable	line:36
+matches	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^    matches = face_recognition.compare_faces(known_face_encodings, face_encoding)$/;"	variable	line:41
+name	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^    name = "Unknown"$/;"	variable	line:43
+first_match_index	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^        first_match_index = matches.index(True)$/;"	variable	line:47
+name	/home/amark/face_recognition/examples/identify_and_draw_boxes_on_faces.py	/^        name = known_face_names[first_match_index]$/;"	variable	line:48
+video_capture	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^video_capture = cv2.VideoCapture(0)$/;"	variable	line:14
+obama_image	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^obama_image = face_recognition.load_image_file("obama.jpg")$/;"	variable	line:17
+obama_face_encoding	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^obama_face_encoding = face_recognition.face_encodings(obama_image)[0]$/;"	variable	line:18
+biden_image	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^biden_image = face_recognition.load_image_file("biden.jpg")$/;"	variable	line:21
+biden_face_encoding	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^biden_face_encoding = face_recognition.face_encodings(biden_image)[0]$/;"	variable	line:22
+known_face_encodings	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^known_face_encodings = [$/;"	variable	line:25
+known_face_names	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^known_face_names = [$/;"	variable	line:29
+face_locations	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^face_locations = []$/;"	variable	line:35
+face_encodings	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^face_encodings = []$/;"	variable	line:36
+face_names	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^face_names = []$/;"	variable	line:37
+process_this_frame	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^process_this_frame = True$/;"	variable	line:38
+small_frame	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^    small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)$/;"	variable	line:45
+rgb_small_frame	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^    rgb_small_frame = small_frame[:, :, ::-1]$/;"	variable	line:48
+face_locations	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^        face_locations = face_recognition.face_locations(rgb_small_frame)$/;"	variable	line:53
+face_encodings	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^        face_encodings = face_recognition.face_encodings(rgb_small_frame, face_locations)$/;"	variable	line:54
+face_names	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^        face_names = []$/;"	variable	line:56
+matches	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^            matches = face_recognition.compare_faces(known_face_encodings, face_encoding)$/;"	variable	line:59
+name	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^            name = "Unknown"$/;"	variable	line:60
+first_match_index	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^                first_match_index = matches.index(True)$/;"	variable	line:64
+name	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^                name = known_face_names[first_match_index]$/;"	variable	line:65
+process_this_frame	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^    process_this_frame = not process_this_frame$/;"	variable	line:69
+font	/home/amark/face_recognition/examples/facerec_from_webcam_faster.py	/^        font = cv2.FONT_HERSHEY_DUPLEX$/;"	variable	line:85
